@@ -1,0 +1,217 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6; /* */
+    margin: 0;
+    padding: 0;
+    background-color: rgb(217, 161, 217);
+}
+
+.fio{
+    font-family: 'Lobster', monospace;
+}
+
+.univer{
+    font-family: 'Courier New', monospace;
+}
+
+.group{
+    font-family: 'Lobster', monospace;
+}
+
+.major{
+    font-family: 'Courier New', monospace;
+}
+
+.faculty{
+    font-family: 'Courier New', monospace;
+}
+
+.gradient-text {
+    background: linear-gradient(90deg, #4cfdcb, #ff2954); /* Задаем градиент */
+    -webkit-background-clip: text; /* Обрезаем фон по тексту */
+    -webkit-text-fill-color: transparent; /* Делаем цвет текста прозрачным */
+    font-size: 3em; 
+    text-align: center; 
+}
+
+
+.about{
+    display: flex;
+}
+
+.about p{
+    display: block;
+}
+
+.photo{
+    width: 35%;
+    height: 35%;
+}
+
+.info{
+    display: block;
+    margin-left: 40px;
+}
+
+.html{
+    color: #ff7b00;
+}
+
+.css{
+    color: #0d8bcf;
+}
+
+.js{
+    color: #fad519;
+}
+
+.go{
+    color: aqua;
+}
+
+.python{
+    color: rgb(243, 204, 107);
+}
+
+.cs{
+    color: #9b02d3;
+}
+
+.under{
+    display: flex;
+}
+
+.styled-button {
+    background-color: #ef0c0c;
+    color: white; 
+    padding: 15px 32px;
+    text-align: center; 
+    text-decoration: none; /* Убираем подчеркивание */
+    display: inline-block; /* Отображение в строку */
+    font-size: 16px; 
+    margin: 4px 2px; 
+    cursor: pointer; /* Указатель при наведении */
+    border: none; 
+    border-radius: 8px; 
+    transition: background-color 0.3s; /* Плавный переход цвета */
+}
+
+.styled-button:hover {
+    background-color: #dc1717; /* Цвет при наведении */
+}
+
+header {
+    background: #b76be1;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.develop{
+    text-align: center;
+}
+
+.fonbak{
+    display: flex;
+}
+
+.fonbak ul{
+    list-style: none;
+}
+
+.fon{
+    margin-left: 20%;
+}
+
+.bak{
+    margin-left: 20%;
+}
+
+nav ul {
+    list-style: none; /*Убирает маркеры*/
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none; /*Убирает подчёркивание*/
+}
+
+.slider {
+    position: relative;
+    max-width: 600px;
+    margin: auto;
+    overflow: hidden; /*Прятать другие изображения*/
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.slide {
+    min-width: 100%; /* */
+    box-sizing: border-box; /* */
+}
+
+.slide img {
+    width: 100%;
+    height: 500px;
+}
+
+.buttons {
+    position: absolute; /* */
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between; /* */
+    transform: translateY(-50%); /* */
+}
+
+.button {
+    background-color: rgba(238, 234, 33, 0.7);
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.styled-button {
+    background-color: rgb(77, 16, 92); 
+    color: white; 
+    border: none; 
+    margin: 40px;
+    padding: 10px 20px; 
+    font-size: 16px; 
+    cursor: pointer; /* Указатель при наведении */
+    transition: background-color 0.3s; /* Плавный переход цвета фона */
+}
+
+.styled-button:hover {
+    background-color: #333; 
+}
+
+section {
+    padding: 20px;
+}
+
+#repos {
+    margin-top: 20px;
+}
+
+.repo {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #b76be1;
+    color: #fff;
+}

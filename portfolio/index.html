@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мое Портфолио</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Добавим немного стилей для анимации кнопки */
+        .styled-button {
+            transition: background-color 0.3s, transform 0.3s;
+        }
+        .styled-button:hover {
+            background-color: #4CAF50; /* Изменение цвета при наведении */
+            transform: scale(1.1); /* Увеличение кнопки при наведении */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="gradient-text">Добро пожаловать в мое портфолио!</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">Обо мне</a></li>
+                <li><a href="#projects">GitHub</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>Обо мне</h2>
+        <div class="about">
+            <img class="photo" src="photo.jpg" alt="img">
+            <div class="info">
+                <p class="fio">Лапин Иван Денисович</p>
+                <p class="univer">Университет: Московский технический университет связи и информатики "МТУСИ"</p>
+                <p class="group">Группа: БФИ2204</p>
+                <p class="major">Направление: Фундаментальная информатика и информационные технологии</p>
+                <p class="faculty">Факультет: Информационные Технологии</p>
+                <div>
+                    <h2 class="develop">Development</h2>
+                    <div class="fonbak">
+                        <div class="fon">
+                            <ul>
+                                <h3>Front</h3>
+                                <li>
+                                    <p class="html">html</p>
+                                </li>
+                                <li>
+                                    <p class="css">css</p>
+                                </li>
+                                <li>
+                                    <p class="js">js</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="bak">
+                            <ul>
+                                <h3>Backend</h3>
+                                <li>
+                                    <p class="go">Go</p>
+                                </li>
+                                <li>
+                                    <p class="python">Python</p>
+                                </li>
+                                <li>
+                                    <p class="cs">C#</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <button class="styled-button" id="toggleInfo">Секретная информация</button>
+                <div id="extraInfo" style="display: none;">
+                    <p>Ага, щас!</p>
+                </div>
+            </div>
+        </div>
+    <hr>
+    <style>
+        hr {
+            width: 100%; 
+            border: none;
+            height: 2px; 
+            background-color: black; 
+        }
+    </style>
+    <section>
+        <div class="slider">
+            <div class="slides">
+                <div class="slide"><img src="nft1.webp" alt="Проект 1"></div>
+                <div class="slide"><img src="nft2.webp" alt="Проект 2"></div>
+                <div class="slide"><img src="nft3.png" alt="Проект 3"></div>
+            </div>
+            <div class="buttons">
+                <button class="button" id="prev">Назад</button>
+                <button class="button" id="next">Вперед</button>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <div class="under">
+        <section id="projects">
+            <h2>GitHub</h2>
+            <a href="https://github.com/Ivan-Lapin" target="_blank">https://github.com/Ivan-Lapin</a>
+            <div>
+                    <div id="repos"></div>
+            </div>
+        </section>
+    
+        <section id="contact">
+            <h2>Контакты</h2>
+            <p>Вы можете связаться со мной по электронной почте: <a href="mailto:pinchuk.15ivan@yandex.ru">pinchuk.15ivan@yandex.ru</a></p>
+        </section>
+
+        <section>
+            <button class="styled-button" type="button" id="interestingButton">Что-то интересное</button>
+            <button class="styled-button" type="button" id="revertButton">Вернуть изначальный цвет</button>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Мое Портфолио</p>
+    </footer>
+
+    <script src="code.js"></script>
+</body>
+</html>
